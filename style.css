@@ -1,0 +1,357 @@
+body {
+  display: flex;
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+#right-side-image {
+  width: 40%;
+  background: url(images/jackson-flip.jpg) no-repeat;
+  background-position: left;
+  text-align: center;
+  background-size: cover;
+  height: 100%;
+}
+h1 {
+  margin-top: 38px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+p {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-left: 20px;
+  line-height: 20px;
+}
+h2 {
+  margin-top: 8px;
+  font-size: 11px;
+  font-weight: bolder;
+}
+.bio-text {
+  width: 80%;
+}
+.donate-screen {
+  width: 30%;
+}
+.learn-screen {
+  width: 30%;
+}
+.button-box {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.donate-image {
+  width: 12px;
+  margin-left: 23px;
+  margin-top: 10px;
+}
+.info-image {
+  width: 12px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.donate-text {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 0;
+  text-align: center;
+}
+.info-text {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 0;
+  text-align: center;
+}
+.donate-button {
+  display: inline-block;
+  background-color: none;
+  border: thin solid white;
+  margin-right: 10px;
+  width: 30%;
+}
+.info-button {
+  display: inline-block;
+  background-color: none;
+  border: thin solid white;
+  width: 30%;
+}
+.carosel-dots {
+  display:flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+}
+.carosel-guns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 95vh;
+}
+.white-dot {
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+}
+.black-dot-1 {
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+}
+.black-dot-2 {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+.machine-gun-left {
+  height:40px;
+  width:40px;
+  margin-left: 15px;
+}
+.machine-gun-right {
+  height:40px;
+  width:40px;
+  margin-right: 15px;
+}
+#container {
+  display: grid;
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
+  grid-template-rows: 33.3333% 33.3333% 33.333%;
+  margin: 0;
+  width: 60%;
+}
+#info-bio {
+  background-color: #F8333C;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.donate {
+  height: 20px;
+  width: 30px;
+}
+.info {
+  height: 20px;
+  width: 30px;
+}
+.box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2541B2;
+  text-align: center;
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.skier {
+  height: 50px;
+  width: 50px;
+  /*margin-top: 25%;*/
+}
+.bottom-boxes {
+  display: grid;
+}
+.box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #782BFF;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.snowboarder {
+  height: 50px;
+  width: 50px;
+  /*margin-top: 25%;*/
+}
+.box-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FFFF2B;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.mountain-biker {
+  height: 50px;
+  width: 50px;
+  /*margin-top: 25%;*/
+}
+.box-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #06BEE1;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 2;
+}
+.paraglider {
+  height: 50px;
+  width: 50px;
+  /*margin-top: 25%;*/
+}
+.box-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #4AF43A;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.parkour {
+  height: 50px;
+  width: 50px;
+  /*margin-top: 25%;*/
+}
+.box-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FF8C00;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 3;
+}
+.fishing {
+  height: 50px;
+  width: 50px;
+  /*margin-top: 25%;*/
+}
+.box-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #336A8C;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.mma {
+  height: 50px;
+  width: 50px;
+  /*margin-top: 25%;*/
+}
+@media screen and (min-width:320px) and (max-width:640px) {
+  body {
+    display: flex;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column-reverse;
+}
+  #right-side-image {
+    width: 100%;
+    background: url(images/jackson-flip.jpg) no-repeat;
+    background-position: left;
+    text-align: center;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+}
+#container {
+  display: grid;
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
+  grid-template-rows: 33.3333% 33.3333% 33.333%;
+  margin: 0;
+  width: 100%;
+}
+.carosel-dots {
+  display: block;
+  /*justify-content: flex-end;*/
+  width: 100%;
+  margin-top: 10px;
+  float: right;
+  height: 20%;
+}
+.carosel-guns {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  height: 30%
+}
+.donate-screen {
+  width: 30%;
+  margin-bottom: 10px;
+}
+.learn-screen {
+  width: 30%;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 8px;
+  font-weight: lighter;
+  margin-left: 20px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.skier {
+  height: 20%;
+  width: 20%;
+}
+.snowboarder {
+  height: 20%;
+  width: 20%;
+}
+.mountain-biker {
+  height: 20%;
+  width: 20%;
+}
+.paraglider {
+  height: 20%;
+  width: 20%;
+}
+.parkour {
+  height: 20%;
+  width: 20%;
+}
+.fishing {
+  height: 20%;
+  width: 20%;
+}
+.mma {
+  height: 20%;
+  width: 20%;
+}
+h2 {
+  margin-top: 8px;
+  font-size: 8px;
+  font-weight: bolder;
+}
