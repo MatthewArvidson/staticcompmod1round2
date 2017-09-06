@@ -155,7 +155,6 @@ h2 {
 .skier {
   height: 50px;
   width: 50px;
-  /*margin-top: 25%;*/
 }
 .bottom-boxes {
   display: grid;
@@ -175,7 +174,6 @@ h2 {
 .snowboarder {
   height: 50px;
   width: 50px;
-  /*margin-top: 25%;*/
 }
 .box-3 {
   display: flex;
@@ -192,7 +190,6 @@ h2 {
 .mountain-biker {
   height: 50px;
   width: 50px;
-  /*margin-top: 25%;*/
 }
 .box-4 {
   display: flex;
@@ -209,7 +206,6 @@ h2 {
 .paraglider {
   height: 50px;
   width: 50px;
-  /*margin-top: 25%;*/
 }
 .box-5 {
   display: flex;
@@ -226,7 +222,6 @@ h2 {
 .parkour {
   height: 50px;
   width: 50px;
-  /*margin-top: 25%;*/
 }
 .box-6 {
   display: flex;
@@ -243,7 +238,6 @@ h2 {
 .fishing {
   height: 50px;
   width: 50px;
-  /*margin-top: 25%;*/
 }
 .box-7 {
   display: flex;
@@ -260,16 +254,16 @@ h2 {
 .mma {
   height: 50px;
   width: 50px;
-  /*margin-top: 25%;*/
 }
 @media screen and (min-width:320px) and (max-width:640px) {
-  body {
+body {
     display: flex;
     height: 100vh;
     font-family: 'Ubuntu', sans-serif;
     flex-direction: column-reverse;
+    background-color: black;
 }
-  #right-side-image {
+#right-side-image {
     width: 100%;
     background: url(images/jackson-flip.jpg) no-repeat;
     background-position: left;
@@ -284,22 +278,6 @@ h2 {
   grid-template-rows: 33.3333% 33.3333% 33.333%;
   margin: 0;
   width: 100%;
-}
-.carosel-dots {
-  display: block;
-  /*justify-content: flex-end;*/
-  width: 100%;
-  margin-top: 10px;
-  float: right;
-  height: 20%;
-}
-.carosel-guns {
-  display: block;
-  justify-content: space-between;
-  align-items: center;
-  height: 40vh;
-  width: 100%;
-  height: 30%
 }
 .donate-screen {
   width: 30%;
@@ -375,4 +353,12 @@ h2 {
 }
 .box-7 {
   height: 100px;
+}
+.carosel-dots {
+  height: 10px;
+
+}
+.carosel-guns {
+  height: 40px;
+  justify-content: space-between;
 }
